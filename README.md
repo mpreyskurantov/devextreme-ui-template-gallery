@@ -29,21 +29,21 @@ To run these UI templates on your machine, clone this repository and run the fol
 
 ### Angular
 
-    pnpm install
+    pnpm install --frozen-lockfile
     cd packages/angular
     pnpm run start
 
 ### React
 
-    pnpm install
+    pnpm install --frozen-lockfile
     cd packages/react
-    pnpm start
+    pnpm dev
 
 ### Vue
 
-    pnpm install
+    pnpm install --frozen-lockfile
     cd packages/vue
-    pnpm run serve
+    pnpm run dev
 
 Open the application on the local server.
 
