@@ -3,7 +3,8 @@
 .footer {
   display: block;
   color: var(--base-text-color-alpha);
-  padding: 20px 0 16px var(--footer-left-padding);
+  padding-block: 20px 16px;
+  padding-inline: var(--footer-left-padding) 0;
   background-color: var(--side-panel-background);
   height: var(--footer-height);
   position: absolute;

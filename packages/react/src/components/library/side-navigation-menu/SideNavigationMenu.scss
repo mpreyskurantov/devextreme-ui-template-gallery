@@ -48,7 +48,7 @@
 
       // ## Icon width customization
       .dx-treeview-item {
-        padding-left: 0;
+        padding-inline-start: 0;
         flex-direction: row-reverse;
         border-radius: 0;
 
@@ -61,13 +61,8 @@
       // ##
 
       .dx-treeview-toggle-item-visibility {
-        right: 10px;
-        left: auto;
-      }
-
-      .dx-rtl .dx-treeview-toggle-item-visibility {
-        left: 10px;
-        right: auto;
+        inset-inline-end: 10px;
+        inset-inline-start: auto;
       }
 
       // ##
@@ -85,7 +80,8 @@
 
         &[aria-level='2'] .dx-treeview-item-content {
           font-weight: normal;
-          padding: 0 0 0 var(--side-panel-min-width);
+          padding-block: 0;
+          padding-inline: var(--side-panel-min-width) 0;
         }
       }
     }
