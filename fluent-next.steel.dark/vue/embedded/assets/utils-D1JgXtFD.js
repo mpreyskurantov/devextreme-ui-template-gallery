@@ -1,0 +1,1 @@
+import{jr as e,pr as t}from"./button-BZjdlqEz.js";var n=n=>{if(e())return t(n)},r=e=>{let t=e===null?void 0:e;return typeof t==`function`?t():t};export{r as n,n as t};
